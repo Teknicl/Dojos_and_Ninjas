@@ -1,0 +1,96 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    text-align: center;
+    text-shadow: 2px 1px black;
+    color: orange;
+    margin-bottom: 20px;
+}
+
+table, th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+th, td {
+    border-bottom: 1px solid black;
+    border-color: crimson;
+}
+
+.box {
+    width: 850px;
+    display: flex;
+    text-align: center;
+}
+
+.ninjabox, .showbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.dojoform {
+    width: 350px;
+    height: 200px;
+    background-color: rgb(105, 102, 102);
+    border-radius: 10px 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.showdojos {
+    padding: 20px 0px 20px 0px;
+    width: 350px;
+    height: auto;
+    background-color: rgb(105, 102, 102);
+    border-radius: 10px 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ninjaform {
+    width: auto;
+    height: 250px;
+    background-color: rgb(105, 102, 102);
+    border-radius: 10px 10px;
+    margin-top: 20px;
+    padding: 20px;
+    /* display: flex; */
+    /* flex-direction: wrap; */
+    /* justify-content: center;
+    align-content: left; */
+    text-align: left;
+}
+
+label, input, select {
+    margin-bottom: 5px;
+    height: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.button {
+    height: 30px;
+    width: 260px;
+    margin-top: 20px;
+    background-color: orange;
+    border-radius: 5px 5px;
+}
+
+.listing {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
